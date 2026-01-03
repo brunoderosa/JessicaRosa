@@ -98,7 +98,7 @@ const Home: React.FC = () => {
               </h2>
               <div className="space-y-4">
                 <p className="text-lg md:text-xl text-[#6E5A5D] leading-relaxed font-medium">
-                  Fisioterapeuta graduada e pós-graduada pela São Camilo. Com mais de 6 anos de experiência, transformo a reabilitação em um momento de cuidado genuíno.
+                  Fisioterapeuta graduada e pós-graduada pela São Camilo. Com mais de 5 anos de experiência, transformo a reabilitação em um momento de cuidado genuíno.
                 </p>
                 <div className="p-8 bg-rose-soft/50 rounded-[3rem] border-l-8 border-primary italic font-serif text-xl text-[#2D1A1E] shadow-sm leading-snug">
                   "Meu objetivo não é apenas tratar uma dor, mas devolver a liberdade do movimento a cada paciente."

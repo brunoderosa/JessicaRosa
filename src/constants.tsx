@@ -29,7 +29,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'drenagem',
     title: 'Terapias Manuais – Drenagem Linfática',
     description: 'Técnica manual para eliminação de toxinas e redução de inchaços.',
-    fullDescription: 'A drama linfática é uma técnica manual que estimula o sistema linfático, ajudando na eliminação de toxinas, redução de inchaços e melhora da circulação. Além de promover sensação de leveza, contribui para a recuperação pós-operatória e favorece a saúde da pele.',
+    fullDescription: 'A drenagem linfática é uma técnica manual que estimula o sistema linfático, ajudando na eliminação de toxinas, redução de inchaços e melhora da circulação. Além de promover sensação de leveza, contribui para a recuperação pós-operatória e favorece a saúde da pele.',
     image: 'https://i.postimg.cc/7Ldkr74H/dre.png',
     benefits: ['Recuperação pós-operatória', 'Combate à retenção de líquidos', 'Melhora da circulação']
   },
@@ -37,7 +37,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'massagem',
     title: 'Massagem Relaxante',
     description: 'Cuidado para corpo e mente, aliviando tensões e devolvendo energia.',
-    fullDescription: 'A massagem relaxante é o cuidado que seu corpo e mente deservem. Alivia tensões, reduz o estresse e devolve energia para o seu dia. Ideal para quem busca um momento de reconexão e bem-estar profundo.',
+    fullDescription: 'A massagem relaxante é o cuidado que seu corpo e mente merece. Alivia tensões, reduz o estresse e devolve energia para o seu dia. Ideal para quem busca um momento de reconexão e bem-estar profundo.',
     image: 'https://i.postimg.cc/pdGDWWcW/massa.jpg',
     benefits: ['Alívio de tensões musculares', 'Redução do estresse', 'Renovação de energias']
   }
@@ -46,7 +46,7 @@ export const SERVICES_DATA: Service[] = [
 export const STATS = [
   { label: 'Pacientes Satisfeitos', value: '450+' },
   { label: 'Sessões Realizadas', value: '3500+' },
-  { label: 'Anos de Experiência', value: '6+' },
+  { label: 'Anos de Experiência', value: '5+' },
 ];
 
 export const TESTIMONIALS = [
