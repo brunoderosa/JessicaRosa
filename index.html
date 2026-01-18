@@ -3,47 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jessica Rosa | Fisioterapia & Pilates Domiciliar</title>
+    <title>Jessica Rosa | Fisioterapia Domiciliar & Pilates em São Paulo</title>
+    <meta name="description" content="Dra. Jessica Rosa, fisioterapeuta pós-graduada pela São Camilo. Especialista em Fisioterapia Ortopédica, Geriátrica e Pilates Domiciliar em São Paulo. Agende sua avaliação em casa." />
+    <meta name="keywords" content="fisioterapia domiciliar SP, fisioterapeuta em São Paulo, pilates em casa SP, home care fisioterapia, reabilitação idoso SP, drenagem linfática pós operatório São Paulo" />
+    <link rel="canonical" href="https://fisiojessicarosa.com.br" />
     
-    <!-- 🔥 SEO META TAGS -->
-    <meta name="description" content="Fisioterapia domiciliar e Pilates em São Paulo. Atendimento especializado em casa para recuperação muscular, postural e bem-estar.">
-    <meta name="keywords" content="fisioterapia domiciliar, pilates sp, fisioterapeuta são paulo, pilates domiciliar, massagem relaxante, fisioterapia sp">
-    <meta name="author" content="Jessica Rosa">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph (Facebook/WhatsApp) -->
-    <meta property="og:title" content="Jessica Rosa | Fisioterapia & Pilates Domiciliar">
-    <meta property="og:description" content="Fisioterapia domiciliar e Pilates em São Paulo. Atendimento especializado em casa.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://fisiojessicarosa.com.br">
-    <meta property="og:site_name" content="Jessica Rosa Fisioterapia">
-    <meta property="og:image" content="https://fisiojessicarosa.com.br/og-image.jpg">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Jessica Rosa | Fisioterapia & Pilates Domiciliar">
-    <meta name="twitter:description" content="Fisioterapia domiciliar em SP">
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jessica Rosa | Fisioterapia & Pilates Domiciliar em São Paulo" />
+    <meta property="og:description" content="Recupere sua mobilidade e bem-estar no conforto do seu lar com atendimento especializado." />
+    <meta property="og:image" content="https://i.postimg.cc/HLfFr2R6/Jessica-Rosa.jpg" />
+    <meta property="og:url" content="https://fisiojessicarosa.com.br" />
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    
+    <!-- SEO Local: JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dra. Jessica Rosa - Fisioterapia e Pilates",
+      "image": "https://i.postimg.cc/HLfFr2R6/Jessica-Rosa.jpg",
+      "description": "Fisioterapeuta especializada em Ortopedia e Geriatria com atendimento domiciliar em São Paulo.",
+      "url": "https://fisiojessicarosa.com.br",
+      "telephone": "+5511992501384",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "medicalSpecialty": "Physiotherapy",
+      "priceRange": "$$"
+    }
+    </script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- 🔥 BLOCO DE CSS EXISTENTE -->
     <style>
       :root {
         --color-rose-primary: #C58691; 
-        --color-rose-dark: #3D2B2E;     
-        --color-rose-light: #F9EBED;  
-        --color-rose-soft: #FDFBFB;     
-        --color-text-main: #2D1A1E;     
-        --color-text-muted: #6E5A5D;  
+        --color-rose-dark: #3D2B2E;    
+        --color-rose-light: #F9EBED;   
+        --color-rose-soft: #FDFBFB;    
+        --color-text-main: #2D1A1E;    
+        --color-text-muted: #6E5A5D;   
       }
-
+      
       body {
         font-family: 'Plus Jakarta Sans', sans-serif;
         background-color: var(--color-rose-soft);
@@ -51,36 +58,35 @@
         -webkit-font-smoothing: antialiased;
         overflow-x: hidden;
       }
-
+      
       h1, h2, h3, h4, .font-serif {
         font-family: 'Fraunces', serif;
         font-variation-settings: "SOFT" 100, "WONK" 1;
         letter-spacing: -0.04em;
       }
-
+      
       .text-primary { color: var(--color-rose-primary); }
       .bg-primary { background-color: var(--color-rose-primary); }
       .border-primary { border-color: var(--color-rose-primary); }
       .bg-dark { background-color: var(--color-rose-dark); }
-
+      
       .glass {
         background: rgba(255, 255, 255, 0.94);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(16px);
         border: 1px solid rgba(197, 134, 145, 0.1);
       }
-
+      
       .hero-gradient {
-        background:
-          radial-gradient(circle at 80% 20%, var(--color-rose-light) 0%, transparent 45%),
-          radial-gradient(circle at 20% 80%, #ffffff 0%, transparent 40%);
+        background: radial-gradient(circle at 80% 20%, var(--color-rose-light) 0%, transparent 45%),
+                    radial-gradient(circle at 20% 80%, #ffffff) 0%, transparent 40%);
       }
 
       .btn-shadow {
         box-shadow: 0 12px 24px -8px rgba(197, 134, 145, 0.35);
         transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
       }
-
+      
       .btn-shadow:hover {
         transform: translateY(-2px);
         box-shadow: 0 20px 32px -10px rgba(197, 134, 145, 0.45);
@@ -98,26 +104,31 @@
         box-shadow: 0 30px 60px -15px rgba(197, 134, 145, 0.1);
         transform: translateY(-4px);
       }
-
+      
       ::-webkit-scrollbar { width: 4px; }
       ::-webkit-scrollbar-track { background: var(--color-rose-soft); }
-      ::-webkit-scrollbar-thumb {
-        background: var(--color-rose-primary);
-        border-radius: 10px;
-      }
+      ::-webkit-scrollbar-thumb { background: var(--color-rose-primary); border-radius: 10px; }
 
       .text-balance { text-wrap: balance; }
-
+      
       @keyframes fadeUp {
         from { opacity: 0; transform: translateY(20px); }
         to { opacity: 1; transform: translateY(0); }
       }
-      .animate-fade-up {
-        animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-      }
+      .animate-fade-up { animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
     </style>
-    <script type="module" crossorigin src="/JessicaRosa/assets/index-DqsqZk3x.js"></script>
-    <link rel="stylesheet" crossorigin href="/JessicaRosa/assets/index-DTtiQKdx.css">
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0"
+  }
+}
+</script>
   </head>
   <body>
     <div id="root"></div>
