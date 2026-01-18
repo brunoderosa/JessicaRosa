@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jessica Rosa | Fisioterapia & Pilates Domiciliar</title>
+    
+    <!-- 🔥 SEO META TAGS -->
+    <meta name="description" content="Fisioterapia domiciliar e Pilates em São Paulo. Atendimento especializado em casa para recuperação muscular, postural e bem-estar.">
+    <meta name="keywords" content="fisioterapia domiciliar, pilates sp, fisioterapeuta são paulo, pilates domiciliar, massagem relaxante, fisioterapia sp">
+    <meta name="author" content="Jessica Rosa">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph (Facebook/WhatsApp) -->
+    <meta property="og:title" content="Jessica Rosa | Fisioterapia & Pilates Domiciliar">
+    <meta property="og:description" content="Fisioterapia domiciliar e Pilates em São Paulo. Atendimento especializado em casa.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fisiojessicarosa.com.br">
+    <meta property="og:site_name" content="Jessica Rosa Fisioterapia">
+    <meta property="og:image" content="https://fisiojessicarosa.com.br/og-image.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jessica Rosa | Fisioterapia & Pilates Domiciliar">
+    <meta name="twitter:description" content="Fisioterapia domiciliar em SP">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 🔥 BLOCO DE CSS EXISTENTE -->
+    <style>
+      :root {
+        --color-rose-primary: #C58691; 
+        --color-rose-dark: #3D2B2E;     
+        --color-rose-light: #F9EBED;  
+        --color-rose-soft: #FDFBFB;     
+        --color-text-main: #2D1A1E;     
+        --color-text-muted: #6E5A5D;  
+      }
+
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        background-color: var(--color-rose-soft);
+        color: var(--color-text-main);
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+
+      h1, h2, h3, h4, .font-serif {
+        font-family: 'Fraunces', serif;
+        font-variation-settings: "SOFT" 100, "WONK" 1;
+        letter-spacing: -0.04em;
+      }
+
+      .text-primary { color: var(--color-rose-primary); }
+      .bg-primary { background-color: var(--color-rose-primary); }
+      .border-primary { border-color: var(--color-rose-primary); }
+      .bg-dark { background-color: var(--color-rose-dark); }
+
+      .glass {
+        background: rgba(255, 255, 255, 0.94);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(197, 134, 145, 0.1);
+      }
+
+      .hero-gradient {
+        background:
+          radial-gradient(circle at 80% 20%, var(--color-rose-light) 0%, transparent 45%),
+          radial-gradient(circle at 20% 80%, #ffffff 0%, transparent 40%);
+      }
+
+      .btn-shadow {
+        box-shadow: 0 12px 24px -8px rgba(197, 134, 145, 0.35);
+        transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .btn-shadow:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 20px 32px -10px rgba(197, 134, 145, 0.45);
+      }
+
+      .card-premium {
+        background: white;
+        border-radius: 2rem;
+        border: 1px solid rgba(197, 134, 145, 0.06);
+        transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .card-premium:hover {
+        border-color: var(--color-rose-primary);
+        box-shadow: 0 30px 60px -15px rgba(197, 134, 145, 0.1);
+        transform: translateY(-4px);
+      }
+
+      ::-webkit-scrollbar { width: 4px; }
+      ::-webkit-scrollbar-track { background: var(--color-rose-soft); }
+      ::-webkit-scrollbar-thumb {
+        background: var(--color-rose-primary);
+        border-radius: 10px;
+      }
+
+      .text-balance { text-wrap: balance; }
+
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-up {
+        animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>
 
