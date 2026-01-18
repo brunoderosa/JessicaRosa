@@ -57,7 +57,7 @@ const About: React.FC = () => {
         {/* Credentials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {[
-            { icon: GraduationCap, title: 'Formação', text: 'Graduação e Pós-graduação em Ortopedia e Traumatologia pelo Centro Universitário São Camilo.' },
+            { icon: GraduationCap, title: 'Formação', text: 'Pós-graduação em Ortopedia e Traumatologia pelo Centro Universitário São Camilo.' },
             { icon: Stethoscope, title: 'Experiência', text: 'Foco em Reabilitação Ortopédica e Geriatria, com protocolos baseados em evidências.' },
             { icon: Home, title: 'Home Care', text: 'Atendimento exclusivo em domicílio em São Paulo Capital, priorizando sua conveniência.' }
           ].map((item, i) => (
