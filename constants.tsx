@@ -37,7 +37,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'massagem',
     title: 'Massagem Relaxante',
     description: 'Cuidado para corpo e mente, aliviando tensões e devolvendo energia.',
-    fullDescription: 'A massagem relaxante é o cuidado que seu corpo e mente merece. Alivia tensões, reduz o estresse e devolve energia para o seu dia. Ideal para quem busca um momento de reconexão e bem-estar profundo.',
+    fullDescription: 'A massagem relaxante é o cuidado que seu corpo e mente deservem. Alivia tensões, reduz o estresse e devolve energia para o seu dia. Ideal para quem busca um momento de reconexão e bem-estar profundo.',
     image: 'https://i.postimg.cc/pdGDWWcW/massa.jpg',
     benefits: ['Alívio de tensões musculares', 'Redução do estresse', 'Renovação de energias']
   }
@@ -64,6 +64,16 @@ export const TESTIMONIALS = [
     name: "Ana Paula Costa",
     text: "Fiz drenagem no meu pós-operatório e foi essencial. O cuidado e o toque suave da Jessica aceleraram muito minha recuperação.",
     role: "Paciente de Pós-operatório"
+  },
+  {
+    name: "Cláudia Mendes",
+    text: "Tratei uma lesão no joelho com a Dra. Jessica e a evolução foi incrível. Ela traz todos os equipamentos e o atendimento é de altíssimo nível.",
+    role: "Paciente Ortopédica"
+  },
+  {
+    name: "Sr. Antônio",
+    text: "A fisioterapia em casa me devolveu a vontade de me exercitar. Hoje subo as escadas do prédio sem medo e com muito mais equilíbrio.",
+    role: "Paciente de Geriatria"
   }
 ];
 

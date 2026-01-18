@@ -44,7 +44,7 @@ const About: React.FC = () => {
             <div className="flex flex-wrap gap-4 pt-2">
               <div className="flex items-center gap-3 px-5 py-3 bg-white rounded-xl border border-primary/10 shadow-sm">
                 <CheckCircle2 size={16} className="text-primary" />
-                <span className="text-[10px] font-black uppercase tracking-widest text-[#2D1A1E]">Pós-Graduada pela São Camilo</span>
+                <span className="text-[10px] font-black uppercase tracking-widest text-[#2D1A1E]">Especialista pela São Camilo</span>
               </div>
               <div className="flex items-center gap-3 px-5 py-3 bg-white rounded-xl border border-primary/10 shadow-sm">
                 <CheckCircle2 size={16} className="text-primary" />
@@ -57,7 +57,7 @@ const About: React.FC = () => {
         {/* Credentials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {[
-            { icon: GraduationCap, title: 'Formação', text: 'Pós-graduação em Ortopedia e Traumatologia pelo Centro Universitário São Camilo.' },
+            { icon: GraduationCap, title: 'Formação', text: 'Especialização em Ortopedia e Traumatologia pelo Centro Universitário São Camilo.' },
             { icon: Stethoscope, title: 'Experiência', text: 'Foco em Reabilitação Ortopédica e Geriatria, com protocolos baseados em evidências.' },
             { icon: Home, title: 'Home Care', text: 'Atendimento exclusivo em domicílio em São Paulo Capital, priorizando sua conveniência.' }
           ].map((item, i) => (

@@ -83,22 +83,22 @@ const Contact: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-3">
                   <label className="text-[10px] font-black text-primary uppercase tracking-[0.3em] ml-2">NOME COMPLETO</label>
-                  <input required type="text" placeholder="Seu nome" className="w-full px-6 py-4 rounded-2xl bg-rose-soft/50 border-2 border-transparent outline-none font-medium text-base focus:border-primary/20 transition-all" value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} />
+                  <input required type="text" placeholder="Seu nome" className="w-full px-6 py-4 rounded-2xl bg-[#F8F8F8] border-2 border-transparent outline-none font-medium text-base text-[#2D1A1E] focus:border-primary/20 transition-all placeholder:text-[#B0A4A6]" value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} />
                 </div>
                 <div className="space-y-3">
                   <label className="text-[10px] font-black text-primary uppercase tracking-[0.3em] ml-2">WHATSAPP</label>
-                  <input required type="tel" placeholder="(11) 90000-0000" className="w-full px-6 py-4 rounded-2xl bg-rose-soft/50 border-2 border-transparent outline-none font-medium text-base focus:border-primary/20 transition-all" value={formData.phone} onChange={e => setFormData({...formData, phone: e.target.value})} />
+                  <input required type="tel" placeholder="(11) 90000-0000" className="w-full px-6 py-4 rounded-2xl bg-[#F8F8F8] border-2 border-transparent outline-none font-medium text-base text-[#2D1A1E] focus:border-primary/20 transition-all placeholder:text-[#B0A4A6]" value={formData.phone} onChange={e => setFormData({...formData, phone: e.target.value})} />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-3">
                   <label className="text-[10px] font-black text-primary uppercase tracking-[0.3em] ml-2">BAIRRO</label>
-                  <input required type="text" placeholder="Ex: Moema" className="w-full px-6 py-4 rounded-2xl bg-rose-soft/50 border-2 border-transparent outline-none font-medium text-base focus:border-primary/20 transition-all" value={formData.neighborhood} onChange={e => setFormData({...formData, neighborhood: e.target.value})} />
+                  <input required type="text" placeholder="Ex: Moema" className="w-full px-6 py-4 rounded-2xl bg-[#F8F8F8] border-2 border-transparent outline-none font-medium text-base text-[#2D1A1E] focus:border-primary/20 transition-all placeholder:text-[#B0A4A6]" value={formData.neighborhood} onChange={e => setFormData({...formData, neighborhood: e.target.value})} />
                 </div>
                 <div className="space-y-3">
                   <label className="text-[10px] font-black text-primary uppercase tracking-[0.3em] ml-2">SERVIÇO</label>
-                  <select required className="w-full px-6 py-4 rounded-2xl bg-rose-soft/50 border-2 border-transparent outline-none font-bold text-[#2D1A1E] cursor-pointer text-base focus:border-primary/20 transition-all" value={formData.service} onChange={e => setFormData({...formData, service: e.target.value})}>
+                  <select required className="w-full px-6 py-4 rounded-2xl bg-[#F8F8F8] border-2 border-transparent outline-none font-bold text-[#2D1A1E] cursor-pointer text-base focus:border-primary/20 transition-all" value={formData.service} onChange={e => setFormData({...formData, service: e.target.value})}>
                     <option value="">Selecione</option>
                     {SERVICES_DATA.map(s => <option key={s.id} value={s.title}>{s.title}</option>)}
                   </select>
@@ -107,7 +107,7 @@ const Contact: React.FC = () => {
 
               <div className="space-y-3">
                 <label className="text-[10px] font-black text-primary uppercase tracking-[0.3em] ml-2">MENSAGEM</label>
-                <textarea rows={4} placeholder="Sua dor ou objetivo..." className="w-full px-6 py-5 rounded-[2rem] bg-rose-soft/50 border-2 border-transparent outline-none resize-none font-medium text-base focus:border-primary/20 transition-all" value={formData.message} onChange={e => setFormData({...formData, message: e.target.value})}></textarea>
+                <textarea rows={4} placeholder="Sua dor ou objetivo..." className="w-full px-6 py-5 rounded-[2rem] bg-[#F8F8F8] border-2 border-transparent outline-none resize-none font-medium text-base text-[#2D1A1E] focus:border-primary/20 transition-all placeholder:text-[#B0A4A6]" value={formData.message} onChange={e => setFormData({...formData, message: e.target.value})}></textarea>
               </div>
 
               <div className="pt-2">

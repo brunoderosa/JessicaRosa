@@ -99,10 +99,10 @@ const Services: React.FC = () => {
 
         {/* Quote Section */}
         <div className="mt-16 text-center animate-fade-up pb-4">
-          <Quote className="text-primary/10 mx-auto mb-4" size={40} />
-          <p className="text-2xl md:text-3xl font-serif italic font-bold text-[#2D1A1E] max-w-4xl mx-auto leading-tight px-4">
-            "Reconecte-se com seu bem-estar. Cuide do seu corpo com tratamentos personalizados"
-          </p>
+           <Quote className="text-primary/10 mx-auto mb-4" size={40} />
+           <p className="text-2xl md:text-3xl font-serif italic font-bold text-[#2D1A1E] max-w-4xl mx-auto leading-tight px-4">
+             “Reconecte-se com seu bem-estar. Cuide do seu corpo com tratamentos personalizados”
+           </p>
         </div>
       </div>
     </div>
