@@ -7,29 +7,28 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import WhatsAppButton from './components/WhatsAppButton';
-import { RoutePath } from './types';
+import { RoutePath } from './types';  // Se existir
 
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }, [pathname]);
   return null;
 };
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-white overflow-x-hidden">
-      <ScrollToTop />
+    <div className="min-h-screen bg-rose-soft text-text-main font-sans">
       <Navbar />
-      <main className="flex-grow">
-        <Routes>
-          <Route path={RoutePath.Home} element={<Home />} />
-          <Route path={RoutePath.About} element={<About />} />
-          <Route path={RoutePath.Services} element={<Services />} />
-          <Route path={RoutePath.Contact} element={<Contact />} />
-        </Routes>
-      </main>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="services" element={<Services />} />
+        <Route path="contact" element={<Contact />} />
+        {/* Adicione mais <Route path="*" element={<NotFound />} /> */}
+      </Routes>
       <Footer />
       <WhatsAppButton />
     </div>
